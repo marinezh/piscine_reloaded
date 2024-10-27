@@ -1,4 +1,4 @@
-//#include <stdio.h>
+#include <stdio.h>
 #include <unistd.h>
 
 void ft_putchar(char c)
@@ -18,5 +18,6 @@ void ft_is_negative(int n)
 int main()
 {
     ft_is_negative(0);
+    printf("\n");
     return 0;
 }
